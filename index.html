@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/blackjack.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack - Refactor</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header class="titulo">
+			<h1>BlackJack</h1>
+		</header>
+
+		<div class="row mt-4">
+			<div class="col text-center">
+				<button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+				<button id="btnPedir" class="btn btn-primary" disabled="disabled">Pedir Carta</button>
+				<button id="btnDetener" class="btn btn-primary" disabled="disabled">Detener</button>
+			</div>
+		</div>
+
+		<div class="row container">
+			<div class="col">
+				<h2>Jugador 1 - <small>0</small></h2>
+				<div class="espacio divCartas" id="jugador-cartas" >
+					<!-- <img class="carta" src="assets/img/cartas/10D.png" alt=""> -->
+				</div>
+			</div>
+		</div>
+
+		<div class="row container mt-3">
+			<div class="col">
+				<h2>Computador - <small>0</small></h2>
+				<div class="espacio divCartas" id="computador-cartas">
+					<!-- <img class="carta" src="assets/img/cartas/10D.png" alt=""> -->
+				</div>
+			</div>
+		</div>
+
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
