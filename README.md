@@ -10,3 +10,7 @@ Pasos para ejecutar proyecto:
 
 1. Ejecutar ```npm run build```
 2. Tomar la carpeta ```dist``` y desplegarla
+
+## Link de la aplicación 
+
+1. https://daftorz07.github.io/BlackJack_Refactor/
